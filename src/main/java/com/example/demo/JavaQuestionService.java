@@ -13,7 +13,7 @@ import java.util.stream.Collectors;
 public class JavaQuestionService implements QuestionServiceImpl {
 
 
-    private List<Question> questions = new ArrayList<>();
+    private List<Question> questions = new ArrayList<>( );
 
     public List<Question> getQuestions() {
         return questions;
